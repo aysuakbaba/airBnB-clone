@@ -1,12 +1,48 @@
+:root{
+  font-family: var(--div-font, 'Poppins', sans-serif);  
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  height: 100vh;
 }
 
 .navbar{
-  background-color: blue;
-  height: 100px;
+  height: 70px;
+  box-shadow: 1px 1px 20px grey;
+  
+}
+
+.navbar img{
+  height: 100%;
+  margin-left: 10px;
+  
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.hero--photo{
+  max-width: 800px;
+}
+
+.hero--header{
+  font-family: inherit;
+  margin-bottom: 16px;
+}
+
+.hero--text{
+  max-width: 850px;
+  font-size: 20px;
+  font-family:inherit;
+  margin-top: 0;
 }
