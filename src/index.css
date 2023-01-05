@@ -46,3 +46,34 @@ body {
   font-family:inherit;
   margin-top: 0;
 }
+
+.card--star{
+  height: 14px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  font-size: 15px;
+}
+.grey{
+  color: gray;
+}
+
+.bold--price{
+  font-weight: bold;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+
+}
+
+.main--photo{
+  height: 290px;
+  padding: 0;
+}
