@@ -1,19 +1,19 @@
 import React from 'react'
 import star from '../assets/Star 1.png'
 
-function Card(props) {
+function Card({img , rate , number , country , text , price , openSpots}) {
   return (
     <div className="card-item">
-        {props.openSpots === 0 && <div className='card--badge'>SOLD OUT</div>}
-        <img src={props.img} alt='swimmer'className='main--photo'></img>
+        {openSpots === 0 && <div className='card--badge'>SOLD OUT</div>}
+        <img src={img} alt='swimmer'className='main--photo'></img>
         <div className='price'>
             <img src={star} alt='star' className='card--star'></img>
-            <span>{props.rate}</span>
-            <span className='grey'>({props.number})·</span>
-            <span className='grey'>{props.country}</span>
+            <span>{rate}</span>
+            <span className='grey'>({number})·</span>
+            <span className='grey'>{country}</span>
         </div>
-        <p>{props.text}</p>
-        <p><span className='bold--price'>From ${props.price}</span> / person</p>
+        <p>{text}</p>
+        <p><span className='bold--price'>From ${price}</span> / person</p>
     </div>
   )
 }
