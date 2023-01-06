@@ -8,13 +8,7 @@ const cards = cardData.map((item) => {
   return (
     <Card
       key= {item.id}
-      img={item.img}
-      rate={item.rate}
-      number={item.number}
-      country={item.country}
-      text={item.text}
-      price={item.price}
-      openSpots={item.openSpots}
+      {...item}
     />
   );
 });
