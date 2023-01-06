@@ -11,6 +11,7 @@ const cardData = [
     country: "USA",
     text: "Life lessons with Katie Zaferes",
     price: 136,
+    openSpots: 0
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const cardData = [
     country: "USA",
     text: "Learn wedding photograph!",
     price: 125,
+    openSpots: 20
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const cardData = [
     country: "USA",
     text: "Group Mountain Biking!",
     price: 50,
+    openSpots: 8
   },
 ];
 

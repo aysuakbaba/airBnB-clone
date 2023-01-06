@@ -77,3 +77,19 @@ body {
   height: 290px;
   padding: 0;
 }
+
+.card-item{
+  position: relative;
+}
+
+.card--badge{
+  position: absolute;
+  border: 0.5px solid white;
+  background-color: white;
+  padding: 3px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}

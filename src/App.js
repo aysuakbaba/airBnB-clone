@@ -14,6 +14,7 @@ const cards = cardData.map((item) => {
       country={item.country}
       text={item.text}
       price={item.price}
+      openSpots={item.openSpots}
     />
   );
 });
